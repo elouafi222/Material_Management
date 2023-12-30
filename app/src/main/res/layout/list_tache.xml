@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageView"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:id="@+id/taskTi"
+        >
+
+        <!-- task title in left and date time (HH:MM) in right -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:id="@+id/taskTitle"
+            android:text="Task Title"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:id="@+id/taskDateTime"
+            android:text="Task DateTime"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskTi"
+        android:layout_toEndOf="@+id/imageView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/taskDescription"
+        android:text="Description Task"
+        android:textStyle="italic"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/taskDescription"
+        android:layout_marginTop="10dp"
+        android:background="#DAD8D8" />
+
+
+
+</RelativeLayout>

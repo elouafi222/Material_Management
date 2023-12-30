@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">planificationMobile2</string>
+    <string name="title_activity_mon_planning">monPlanning</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="show_rate">Show Rate</string>
+    <string name="rating_app">Rating this app</string>
+    <string name="feedback_app">Feedback this app</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="gpm">GPM</string>
+    <string name="utilisateur">Utilisateur</string>
+    <string name="mote_de_passe">Mote de passe</string>
+    <string name="oblier_votre_mot_de_passe">Oblier votre mot de passe ?</string>
+    <string name="contactez_nous">Contactez-nous</string>
+    <string name="google" />
+    <string name="facebook" />
+    <string name="twitter" />
+    <string name="login">LOGIN</string>
+    <string name="item_projet">nom projet</string>
+    <string name="statutprojet">statue projet</string>
+    <string name="datefinprojet">date fin</string>
+    <string name="mon_planning_title"> Mon Planning</string>
+    <string name="nouveau_title">Nouveau</string>
+    <string name="visualisation_title">Visualisation</string>
+    <string name="analyse_title">Analyse</string>
+
+    <string name="select_5_star_rating">Please select a 5-star rating!</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_five_star_title">Enjoying %s App?</string>
+    <string name="rate_tips">Tap a star to rate it on the \nPlay Store.</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="roboto_regular">sans-serif</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_mail">Send mail…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subject_email">%s Feedback</string>
+    <string name="submits">Submit</string>
+
+    <string-array name="choisirgrapht">
+        <item>difference</item>
+        <item>score</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:gravity="center">
+
+        <!-- Bouton Mon Planning -->
+
+        <!-- Liste déroulante pour le choix de la période -->
+        <Button
+            android:id="@+id/btn_mon_planning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#007FAC"
+            android:backgroundTint="#007FAC"
+            app:backgroundTint="#007FAC"
+            android:layout_margin="10dp"
+            android:text="Mon Planning" />
+
+
+        <!-- Bouton Réclamation -->
+        <Button
+            android:id="@+id/btn_reclamation"
+            android:layout_width="match_parent"
+            android:background="#007FAC"
+            android:backgroundTint="#007FAC"
+            app:backgroundTint="#007FAC"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="Réclamation" />
+
+    </LinearLayout>
+
+</RelativeLayout>

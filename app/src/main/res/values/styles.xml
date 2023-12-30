@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Mettez vos attributs de style ici -->
+    </style>
+
+    <style name="HomeTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:title">Home</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- Style pour l'activité Planning -->
+    <style name="PlanningTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:title">Planning</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- Style pour l'activité Visualisation -->
+    <style name="VisualisationTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:title">Visualisation</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- Style pour l'activité Analyse -->
+    <style name="AnalyseTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:title">Analyse</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <style name="lib_material_rating_style" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/lib_material_icon_ratingbar</item>
+        <item name="android:indeterminateDrawable">@drawable/lib_material_icon_ratingbar</item>
+    </style>
+
+
+</resources>

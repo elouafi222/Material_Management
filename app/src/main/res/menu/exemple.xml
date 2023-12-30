@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemMonPlanning"
+        android:title="monPlanning"
+        />
+
+    <item
+        android:id="@+id/itemvisualisation"
+        android:title="visualisation"
+        />
+
+    <item
+        android:id="@+id/itemNouveau"
+        android:title="nouveau"
+        />
+
+    <item
+        android:id="@+id/itemAnalyse"
+        android:title="anlyse"
+        />
+
+
+    <item
+        android:id="@+id/itemDeconnection"
+        android:title="Deconnection"
+        />
+
+
+
+</menu>
