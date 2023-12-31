@@ -11,7 +11,7 @@ This repository is the client (front) part of the Material_Management_api projec
 ![Mockup 1](img/4.png)
 ### Score Analysis Interface:
 ![Mockup 1](img/5.png)
-### Visualization Interface:
-![Mockup 1](img/6.png)
 ### Add Project Interface:
 ![Mockup 1](img/6a.png)
+### Visualization Interface:
+![Mockup 1](img/6.png)
